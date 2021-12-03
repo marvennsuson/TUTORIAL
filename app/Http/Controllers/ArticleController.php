@@ -17,8 +17,8 @@ class ArticleController extends Controller
             // return view('');
 
             // $article = Article::where('title' , "hello")->get();
-            $article = Article::all();
-            return view('index',compact('article'));
+            // $article = Article::all();
+            // return view('index',compact('article'));
     }
 
 
